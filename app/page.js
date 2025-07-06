@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Navigation from "./Components/Navigation/Navigation";
 
 export default function Home() {
   return (
-    <h1>Hello world</h1>
+    <Navigation />
   );
 }
